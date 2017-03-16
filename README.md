@@ -98,8 +98,6 @@ gulp.task('serve-prod', serve({
 }));
 
 gulp.task('default', ['open', 'uri', 'app', 'browser','webserver']);
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
 
 ```
 ####You can view more examples in the [example folder.](https://github.com/stevelacy/gulp-open/tree/master/examples)
