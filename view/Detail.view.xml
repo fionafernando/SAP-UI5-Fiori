@@ -1,0 +1,34 @@
+<core:View
+	controllerName="sap.ui.demo.myFiori2.view.Detail"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form" 
+    xmlns:commons="sap.suite.ui.commons">
+		<Page
+		title="Product List"
+		showNavButton="true"
+		navButtonPress="handleNavButtonPress" >	
+		<List
+			items="{/ProductsCollection}" >
+			<ObjectListItem
+				type="Active"
+				press="handleListItemPress"
+				Id="{Id}"
+				Name="{Name}"
+				Customer="{Customer}"
+				Department="{Department}" >
+				<attributes>
+					<ObjectAttribute text="{Name}" />
+					<ObjectAttribute text="{Customer}" />
+					<ObjectAttribute text="{Department}" />
+				</attributes>
+				<firstStatus>
+					<ObjectStatus text="{Status}" />
+				</firstStatus>
+			</ObjectListItem>
+		</List>	
+	<Button text="Create New Product" press="onAddNewProduct"></Button>	
+</Page>
+</core:View>

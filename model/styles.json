@@ -1,0 +1,25 @@
+{
+	"StylesCollection": [
+			{			
+  			"Id" : "00001",
+  			"Name" : "Style0001",
+  			"Customer" : "VSX",
+  			"Department" : "Appareal",
+  			"Status" : "3 Products"
+			},
+			{
+  			"Id" : "000002",
+  			"Name" : "Style0002",
+  			"Customer" : "VS Pink",
+  			"Department" : "MSD Bra",
+  			"Status" : "2 Products"
+  			},
+			{
+  			"Id" : "000003",
+  			"Name" : "Style0003",
+  			"Customer" : "M&S",
+  			"Department" : "Intimates",
+  			"Status" : "4 Products"
+			}
+	]		
+}

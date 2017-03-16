@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>My Fiori 2</title>
+
+		<script
+			id="sap-ui-bootstrap"
+			src="https://openui5.hana.ondemand.com/1.28.15/resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_bluecrystal"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-resourceroots='{
+				"sap.ui.demo.myFiori2": "./"
+			}' >
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pouchdb/6.1.2/pouchdb.js">
+		</script>
+	<!-- 	<script
+			id="sap-ui-bootstrap"
+			src="https://code.jquery.com/jquery-2.2.4.js">
+		</script> -->
+		
+
+		<script>
+			new sap.ui.core.ComponentContainer({
+				name : "sap.ui.demo.myFiori2"
+			}).placeAt("content");
+		</script>
+
+	</head>
+	<body class="sapUiBody" id="content">
+	</body>
+</html>
